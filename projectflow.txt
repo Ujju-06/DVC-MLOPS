@@ -1,3 +1,12 @@
 Create a git repo and clone it in local.
 Create mycode.py amd add code to it. (it will save a csv file to a new "data" folder)
 Do a git add-commit-push before initilizing dvc.
+
+pip install dvc
+
+now we do "dvc init" (creates .dvcignore, .dvc)
+
+create an folder "mkdir s3"
+
+Now we do "dvc remote add -d myremote s3"
+next "dvc add data/"
