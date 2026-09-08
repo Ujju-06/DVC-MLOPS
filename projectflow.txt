@@ -15,3 +15,9 @@ next "dvc add data/" ------------------------------------> This will through err
 Again we do "dvc add data/" (creates data.dvc) than "git add .gitignore data.dvc"
 
 Now "dvc commit" and than "dvc push"
+
+Do a git add-commit-push to mark this stage as first version of data saved.
+
+Now make changes to mycode.py to append a new row in data, check changes via "dvc status"
+
+Again "dvc commit" and than "dvc push"  so that changes data.dvc me id change ho jaye or push krne pr new data me kiye hue changes s3 me push ho jayega
