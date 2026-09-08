@@ -28,3 +28,10 @@ Check dvc/git status, everything should be upto data.
 
 Now repeat steps "dvc commit" , "dvc push" Than git add - commit - push ( we are saving v3 of our data at this point)
 
+
+
+------------------------------Rollback krke dekhenge ab-----------------------------
+
+git log --oneline
+git checkout <hash> -  "git checkout bb35fc1"
+
