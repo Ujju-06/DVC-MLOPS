@@ -9,4 +9,9 @@ now we do "dvc init" (creates .dvcignore, .dvc)
 create an folder "mkdir s3"
 
 Now we do "dvc remote add -d myremote s3"
-next "dvc add data/"
+
+next "dvc add data/" ------------------------------------> This will through error  ==== fir ye 2 commands recommend krega use chlana than is same command ko run krna { Because initially we were tracking data/ folder from git so now we remove it for DVC to handle }
+
+Again we do "dvc add data/" (creates data.dvc) than "git add .gitignore data.dvc"
+
+Now "dvc commit" and than "dvc push"
