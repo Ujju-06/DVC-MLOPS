@@ -35,3 +35,4 @@ Now repeat steps "dvc commit" , "dvc push" Than git add - commit - push ( we are
 git log --oneline
 git checkout <hash> -  "git checkout bb35fc1"
 
+dvc status ,  dvc pull , dvc status, git checkout main (dubara first vale version me jane ke liye)  , dvc pull
